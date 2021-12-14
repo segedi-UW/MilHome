@@ -1,0 +1,91 @@
+#middle {
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#flea-market {
+    opacity: 90%;
+}
+
+#discord {
+    max-height: 10vh;
+}
+
+iframe {
+    opacity: 82%;
+    flex: 1;
+    align-self: stretch;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    min-width: 35%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#links {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    align-items: flex-end;
+    align-self: flex-end;
+    flex: 1;
+    gap: 10px;
+}
+
+body {
+    width: auto;
+    height: 98vh;
+    display: flex;
+    justify-content: space-between;
+    background-size: 100%;
+    background-position: center;
+}
+
+a {
+    font-size: 32px;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    font-weight: normal;
+    background-color: rgba(41, 41, 41, 0.411);
+    text-align: center;
+    color: rgb(214, 109, 33);
+    border-radius: 6px;
+    border-right: 8px solid rgba(34, 139, 34, 0.493);
+    padding: 0 1em;
+}
+
+a:hover{
+    animation: hover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover {
+    from {
+        border-color: rgba(34, 139, 34, 0.493);   
+        color: rgb(214, 109, 33);
+        background-color: rgba(41, 41, 41, 0.411);
+    }
+
+    to {
+        color: rgb(33, 131, 33);
+        border-color: rgb(214, 109, 33);
+        transform:translateX(0.35em);
+        background-color: rgba(41, 41, 41, 0.774);
+    }
+}
