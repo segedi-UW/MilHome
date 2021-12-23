@@ -30,7 +30,7 @@ iframe {
 #right {
     display: flex;
     flex-direction: column;
-    min-width: 35%;
+    min-width: 50%;
     align-items: center;
     justify-content: space-evenly;
 }
