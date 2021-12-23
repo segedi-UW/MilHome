@@ -3,11 +3,9 @@ const images = [
     "classic.png",
     "escape.jpg",
     "outside.jpg",
-    "russions.jpg",
     "city.jpg",
     "ghilie.jpg",
     "tank.jpg",
-    "squad.webp",
     "wild-tank.jpg",
     "hunt.jpg"
 ];

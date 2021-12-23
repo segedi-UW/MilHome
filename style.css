@@ -30,7 +30,7 @@ iframe {
 #right {
     display: flex;
     flex-direction: column;
-    min-width: 25%;
+    min-width: 35%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -38,7 +38,7 @@ iframe {
 #links {
     margin: 2rem 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-right: 1rem;
     align-items: flex-end;
     align-self: flex-end;
